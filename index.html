@@ -82,13 +82,19 @@
         }
 
         .logo {
-            font-size: 24px;
-            font-weight: bold;
+             font-size: 24px;
+            font-weight: 500;
             color: white;
+              font-family: "Tagesschrift", system-ui;
+              letter-spacing: 4px;
+              word-spacing: 10px;
         }
 
         .logo span {
-            color: var(--primary-color);
+             color: var(--card-bg);
+            font-family: "Tagesschrift", system-ui;
+            font-style: italic;
+            font-size: 16px;
         }
 
         nav ul {
@@ -104,11 +110,17 @@
         nav ul li a {
             color: white;
             font-weight: 500;
+            font-family: "Inconsolata", monospace;
+            letter-spacing: 1px;
+            font-size: 16px;
             transition: color 0.3s;
         }
 
         nav ul li a:hover {
-            color: var(--primary-color);
+            border-top: 4px solid var(--light-color);
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+            padding-top: 5px;
         }
 
         /* Dark Mode Toggle */
